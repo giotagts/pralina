@@ -1,0 +1,407 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #060503;
+	background-color: #CAA765;
+	background-image: url(images/choco.jpg);
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	text-transform: lowercase;
+	font-family: 'Abel', sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+	font-family: "Segoe Script";
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #FF3366;
+}
+
+a:hover {
+}
+
+img.border {
+	border: 6px solid #E1F1F6;
+}
+
+img.alignleft {
+	float: left;
+	margin-right: 25px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header {
+	overflow: hidden;
+	width: 900px;
+	height: 150px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+/* Logo */
+
+#logo {
+	height: 120px;
+	margin: 0;
+	padding: 20px 0px 0px 0px;
+	color: #060503;
+	text-align: center;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	padding-left: 30px;
+	letter-spacing: -3px;
+	text-transform: none;
+	font-family: "Segoe Script";
+	font-size: 64px;
+}
+
+#logo span {
+	letter-spacing: normal;
+	font-size: 22px;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #060503;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 280px;
+	padding: 0;
+}
+
+#search form {
+	float: right;
+	height: 41px;
+	margin: 0;
+	padding: 40px 40px 0 0px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 220px;
+	height: 35px;
+	padding: 0px 10px;
+	border: none;
+	background: #636900;
+	line-height: 35px;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+	font-family: 'Abel', sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+#search-submit {
+	display: none;
+}
+
+/* Menu */
+
+#menu {
+	width: 1100px;
+	height: 50px;
+	margin: 20px auto;
+	padding: 0px 10px 0px 10px;
+	text-align: center;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	margin-right: 5px;
+	border-radius: 10px;
+	display: inline-block;
+	background-color: #FFCC66;
+	background-image: none;
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+#menu a {
+	display: compact;
+	height: 40px;
+	margin-right: 1px;
+	padding: 0px 10px 0px 10px;
+	line-height: 40px;
+	text-decoration: none;
+	text-transform: none;
+	font-size: 16px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	border: none;
+	font-family: "Lithos Pro Regular";
+}
+
+#menu .current_page_item a {
+	color: #CC9900;
+	font-weight: bold;
+	font-family: "Lithos Pro Regular";
+	text-decoration: none;
+
+}
+
+#menu a:hover {
+}
+
+/* Page */
+
+#page {
+	overflow: hidden;
+	width: 900px;
+	margin: 0px auto;
+}
+
+/* Content */
+
+#content {
+	float: center;
+	width: 900px;
+}
+
+.post {
+	margin-bottom: 30px;
+	padding: 40px 40px;
+	box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	outline-offset: -10px;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	background-image: url(images/page-gradient-bg2.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+.post .title {
+	padding-bottom: 20px;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	color: #901609;
+}
+
+.post .title a {
+	border: none;
+	color: #901609;
+}
+
+.post .meta {
+	padding-bottom: 5px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.post .entry {
+	text-align: justify;
+	margin-bottom: 25px;
+	padding: 10px 0px 0px 0px;
+}
+
+.links {
+	display: block;
+	width: 96px;
+	padding: 2px 0px 2px 0px;
+	background: #A53602;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer {
+	width: 900px;
+	height: 60px;
+	background-image: none;
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin: 0px auto 40px auto;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 30px;
+	line-height: normal;
+	text-transform: none;
+	text-align: center;
+	font-family: "Monotype Corsiva";
+	font-size: 14px;
+	color: #CC9933;
+}
+
+#footer a {
+	text-decoration: underline;
+	font-family: Mistral;
+	font-size: 18px;
+}
+
+#about {
+	overflow: hidden;
+	width: 820px;
+	margin: 30px auto 0px auto;
+	padding: 40px 40px;
+	background: #FFFFFF url(images/page-gradient-bg.png) repeat-x left bottom;
+	box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	outline-offset: -10px;
+	border-radius: 10px;
+}
+
+#about .title {
+	padding-bottom: 10px;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	color: #901609;
+}
+
+#two-column {
+	padding-top: 30px;
+}
+
+#two-column h2 {
+	padding-bottom: 20px;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-size: 30px;
+	color: #A26500;
+}
+
+#two-column #column1 {
+	float: left;
+	width: 390px;
+}
+
+#two-column #column2 {
+	float: right;
+	width: 390px;
+}
+
+.list-style1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.list-style1 li {
+	padding: 5px 0px;
+	border-top: 1px solid #EEEEEE;
+}
+
+.list-style1 a:hover {
+	text-decoration: underline;
+}
+
+.list-style1 .first {
+	border-top: none;
+}
+
+#banner {
+	width: 800px;
+	height: auto;
+	margin: auto;
+}
+
+#banner img {
+	border-radius: 10px;
+}
+
+.featured-post {
+	padding: 0px 0px 30px 0px;
+	color: #060503;
+}
+
+.featured-post .title {
+	padding-bottom: 20px;
+	color: #060503;
+	text-align: center;
+}
+
+.featured-post a {
+	color: #901609;
+}
